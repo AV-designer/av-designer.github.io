@@ -1,40 +1,90 @@
 body {
-  font-family: Georgia;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   margin: 0 auto; /* center content */
   max-width: 800px; /* limit width */
   line-height: 1.5;
-  padding-top: 32px;
+  padding-top: 10px;
   padding-bottom: 32px;
+  color: #008078;
 }
 p {
-  margin-bottom: 12px;
+  font-size: 12px;
+  margin: 0, 0, 12em, 0;
 }
-h1,
-h2,
-h3 {
-  font-weight: 400;
+
+.foto {
+  border-radius: 100%;
+  border: 1px solid blanchedalmond;
 }
 
 h1 {
-  font-size: 36px;
-  margin-bottom: 0;
+  margin-top: 0px;
+  font-size: 42px;
+  line-height: 1.15;
 }
 h2 {
   font-size: 32px;
-  border-bottom: 1px solid gray;
-  margin-bottom: 8px;
-}
-.header-title {
-  font-size: 18px;
-  border-bottom: none;
-  margin-bottom: 10px;
+  margin-top: 26px;
+  margin-bottom: 6px;
 }
 #header {
-  margin-bottom: 32px;
-  text-align: center;
+  border-bottom: none;
 }
+.designer {
+  font-size: 18px;
+  color: #008078;
+  font-size: 16px;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+}
+
 #footer {
   margin-top: 64px;
   text-align: center;
+}
+
+.header-title {
+  color: #008078;
+}
+
+.full {
+  margin: 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px;
+  border-bottom: 1px solid #008078;
+  padding: 10px 20px 10px 10px;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+td {
+  font-size: 12px;
+  line-height: 16px;
+  padding: 6px 6px 6px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+li {
+  font-size: 12px;
+  line-height: 17px;
+  padding: 0px 0px 4px 6px;
+}
+
+ul {
+  margin: 0;
 }
