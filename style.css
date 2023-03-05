@@ -6,7 +6,7 @@ body {
   line-height: 1.5;
   padding-top: 10px;
   padding-bottom: 32px;
-  color: #008078;
+  color: #000000;
 }
 p {
   font-size: 12px;
@@ -54,10 +54,6 @@ h2 {
   color: #008078;
 }
 
-.full {
-  margin: 10px;
-}
-
 table {
   border-collapse: collapse;
 }
@@ -88,3 +84,22 @@ li {
 ul {
   margin: 0;
 }
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /*flex-wrap: nowrap;*/
+}
+
+.img-list {
+  flex-grow: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  flex-basis: 25%;
+  max-width: 25%;
+
+  padding: 2px;
+}
+
