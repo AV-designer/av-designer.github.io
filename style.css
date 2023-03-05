@@ -85,7 +85,6 @@ ul {
   margin: 0;
 }
 
-
 .row {
   display: flex;
   flex-direction: row;
@@ -102,4 +101,3 @@ ul {
 
   padding: 2px;
 }
-
