@@ -28,6 +28,12 @@ h2 {
   margin-top: 26px;
   margin-bottom: 6px;
 }
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  margin-left: 8px;
+}
 #header {
   border-bottom: none;
 }
@@ -63,7 +69,7 @@ th {
   font-size: 12px;
   line-height: 17px;
   border-bottom: 1px solid #008078;
-  padding: 10px 20px 10px 10px;
+  padding: 10px 10px 10px 10px;
   text-align: left;
   vertical-align: bottom;
 }
@@ -98,6 +104,5 @@ ul {
   box-sizing: border-box;
   flex-basis: 25%;
   max-width: 25%;
-
   padding: 2px;
 }
